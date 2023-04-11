@@ -268,10 +268,10 @@ zabbix_export:
           value: '8728'
         -
           macro: '{$SENHA}'
-          value: Adm@1986
+          value: SUA_SENHA
         -
           macro: '{$USER}'
-          value: py
+          value: SEU_USER
       valuemaps:
         -
           uuid: 80f70e16a1724a00b6b1272ae7fe48c2
