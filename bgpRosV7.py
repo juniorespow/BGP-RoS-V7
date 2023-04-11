@@ -17,7 +17,7 @@ porta = sys.argv[4]
 # Configurações de conexão
 user = 'seu_user'
 senha = 'sua_senha_api'
-ip = '172.21.1.250' # IP de Gerencia do seu BGP
+ip = '172.21.1.250' # IP de Gerencia do BGP
 porta = '8728'
 
 # Conecta ao dispositivo
