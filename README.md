@@ -10,3 +10,5 @@ logo isso traz um problema para o monitoramento, pois a única chave que temos p
 Com o passar do tempo serão aplicadas melhorias e mais capturas de dados parao JSON.
 
 Criei esse Script para funcionar em Zabbix, testado apenas no Zabbix 6.0.12 pora hora.
+
+Sera Necessário criao Template no Zabbix para funcionar, posteriormente irei subir o template já testado.
