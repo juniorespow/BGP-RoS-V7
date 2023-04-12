@@ -51,9 +51,14 @@ for session in api(cmd="/routing/bgp/session/print"):
 # Consulta as rotas de origem e armazena as informações relevantes em uma lista de dicionários
 search_routes = []
 for route in api(cmd="/routing/stats/origin/print"):
-    if "bgp-IP" in route["name"]:
+    if "bgp-IP-" in route["name"]:
         search_routes.append({
             "IP": route["name"],
+            "COUNT": route["total-route-count"]
+        })
+    elif "bgp-IP6-" in route["name"]:
+        search_routes.append({
+            "IP6": route["name"],
             "COUNT": route["total-route-count"]
         })
 
